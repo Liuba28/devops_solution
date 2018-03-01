@@ -1,4 +1,3 @@
-![Logo of the project](https://www.google.de/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjooOjT5MvZAhXMXBQKHUGNCJMQjRx6BAgAEAY&url=https%3A%2F%2Fpages.fatmap.com%2F&psig=AOvVaw0I81MxCbvRKkQ4fKtopQgM&ust=1520016444827300)
 
 # Devops solution
 
