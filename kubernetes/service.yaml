@@ -1,0 +1,35 @@
+{
+  "kind": "Service",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "minikube2",
+    "namespace": "default",
+    "selfLink": "/api/v1/namespaces/default/services/minikube2",
+    "uid": "4a6e8b20-1d65-11e8-9af1-08002727c021",
+    "resourceVersion": "4176",
+    "creationTimestamp": "2018-03-01T15:29:11Z",
+    "labels": {
+      "run": "minikube2"
+    }
+  },
+  "spec": {
+    "ports": [
+      {
+        "protocol": "TCP",
+        "port": 3004,
+        "targetPort": 3004,
+        "nodePort": 32526
+      }
+    ],
+    "selector": {
+      "run": "minikube2"
+    },
+    "clusterIP": "10.111.225.168",
+    "type": "LoadBalancer",
+    "sessionAffinity": "None",
+    "externalTrafficPolicy": "Cluster"
+  },
+  "status": {
+    "loadBalancer": {}
+  }
+}
