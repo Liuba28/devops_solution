@@ -1,0 +1,11 @@
+
+version: '2'
+services:
+  web:
+    build:
+      context: .
+      
+    ports:
+     - "3004:3004"
+    image: geoserver
+    
